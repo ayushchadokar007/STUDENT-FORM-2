@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <div id="container">
+        <div class="title">
+            <h2>Student Registration Form 2</h2><hr> 
+        </div>
+        <div class="form">
+            <form action="/login" method="post">
+                <label for="fname">First Name:</label>                
+                <input type="text" id="fname" name="fname" placeholder="Firstname"><br><br>
+                <label for="Lname">Last Name:</label>
+                <input type="text" id="Lname" name="Lname" placeholder="Lastname"><br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender">Male 
+                <input type="radio" id="gender" name="gender">Female<br><br>
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age" placeholder="Enter age"><br><br>
+                <label for="birth">Date of Birth:</label>
+                <input type="date" id="birth" name="birth"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password"><br><br>
+                <label for="repassword">Confirm Password:</label>
+                <input type="password" id="repassword" name="repassword" placeholder="Conform Password"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter Phone No."><br><br>
+                <label for="add">Current Address:</label>
+                <textarea id="add" name="add" placeholder="Current Address" cols="39" rols="10"></textarea><br><br>
+                <label for="state">State:</label>
+                <select>
+                    <option value="MP">Madhya Pradesh</option>
+                    <option value="AP">Andhra Pradesh</option>
+                    <option value="assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                </select><br><br>
+                <label for="pincode">Pin Code:</label>
+                <input type="text" id="pincode" name="pincode" placeholder="Enter your pin code"><br><br>
+                <label for="hobbies">Hobbies:</label>
+                <input type="radio" id="hobbies" name="hobbies">music
+                <input type="radio" id="hobbies" name="gender">Movies
+                <input type="radio" id="hobbies" name="hobbies">Sports
+                <input type="radio" id="hobbies" name="hobbies">Travel<br><br>
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo"><br><br>
+                <input type="checkbox" id="declaration" name="declaration" value="declaration">
+                <label type="declaration">I hereby declare that the above information provided is true and correct.</label><br<br>
+                <button type="submit" id="reg" name="reg">Register</button>                          
+            </form>
+        </div>       
+    </div>
+</body>
+</html>
